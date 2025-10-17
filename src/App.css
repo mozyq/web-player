@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+img {
+  display: block;
+}
+
+.mzq {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  height: 750px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.mzq img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player {
+  position: relative;
+}
+
+.master {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
